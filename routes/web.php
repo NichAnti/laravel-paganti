@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('paganti', 'PagantiController@getPaganti');
+Route::get('pagante/{id}', 'PagantiController@getPagante');
