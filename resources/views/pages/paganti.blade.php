@@ -2,12 +2,6 @@
 
 @section('content')
 
-  <!-- @include('pagesElements.pagantiInfo') -->
-
-  @foreach ($paganti as $pagante)
-
-  <li>{{ $pagante->id }} - {{ $pagante->name}} - {{ $pagante->lastname}}</li>
-
-  @endforeach
+  @include('pagesElements.pagantiInfo')
 
 @stop
